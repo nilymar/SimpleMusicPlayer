@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Music</string>
+    <string name="play_button_description">Play track</string>
+    <string name="no_tracks_toast">There aren\'t any tracks</string>
+    <string name="shuffle_button_description">Shuffle all</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- Notificaiton Channel -->
+</resources>

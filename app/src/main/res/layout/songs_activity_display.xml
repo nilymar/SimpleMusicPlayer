@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background16"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+        android:id="@+id/action_layout"
+        style="@style/action_layout">
+
+        <TextView
+            android:id="@+id/track_playing"
+            style="@style/track_playing" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/list_view_style" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/play_all_button"
+        style="@style/floating_play_button"
+        android:src="@drawable/ic_play_arrow" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/shuffle_all_button"
+        style="@style/floating_shuffle_button"
+        android:src="@drawable/lb_ic_shuffle" />
+
+</RelativeLayout>
