@@ -11,8 +11,6 @@ The mediaPlayer service will continue to run in the backgroud - allowing the use
 previous song). The user can go back to the app screen by pressing on the notification icon.
 if you want to close the player - you can do it by clicking on the cancel button (x) in the notification.
 
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/33417968/42566650-df120ce2-850f-11e8-98df-11d1df07b36b.gif)
-
 ![screenshot_20180711-125311](https://user-images.githubusercontent.com/33417968/42565423-101187ea-850c-11e8-8b16-0f7fdf3457e1.png) 
 ![screenshot_20180711-125318](https://user-images.githubusercontent.com/33417968/42565424-10405282-850c-11e8-8ec8-893c078f91aa.png)
 
