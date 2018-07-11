@@ -11,12 +11,12 @@ The mediaPlayer service will continue to run in the backgroud - allowing the use
 previous song). The user can go back to the app screen by pressing on the notification icon.
 if you want to close the player - you can do it by clicking on the cancel button (x) in the notification.
 
-![screenshot_20180711-125311](https://user-images.githubusercontent.com/33417968/42565423-101187ea-850c-11e8-8b16-0f7fdf3457e1.png)
+![screenshot_20180711-125311](https://user-images.githubusercontent.com/33417968/42565423-101187ea-850c-11e8-8b16-0f7fdf3457e1.png)    
 ![screenshot_20180711-125318](https://user-images.githubusercontent.com/33417968/42565424-10405282-850c-11e8-8ec8-893c078f91aa.png)
 
-![screenshot_20180711-125326](https://user-images.githubusercontent.com/33417968/42565425-1061cb2e-850c-11e8-8e98-e68765602534.png)
+![screenshot_20180711-125326](https://user-images.githubusercontent.com/33417968/42565425-1061cb2e-850c-11e8-8e98-e68765602534.png)    
 ![screenshot_20180711-125331](https://user-images.githubusercontent.com/33417968/42565426-1087bea6-850c-11e8-8419-3837b3ea0032.png)
 
-![screenshot_20180711-125336](https://user-images.githubusercontent.com/33417968/42565427-10a97596-850c-11e8-9ba7-3a4e32f38f6a.png)
+![screenshot_20180711-125336](https://user-images.githubusercontent.com/33417968/42565427-10a97596-850c-11e8-9ba7-3a4e32f38f6a.png)    
 ![screenshot_20180711-125354](https://user-images.githubusercontent.com/33417968/42565428-10c9a7e4-850c-11e8-9a33-b64fae15fa5c.png)
 
