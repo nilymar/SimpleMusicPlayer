@@ -2,7 +2,7 @@
 
 Implementation of a one screen music player, with MediaController, MediaPlayer running in service class and media style notificaitons.
 
-The app ceate a list of audio files saved on the device and show them on the sceen, sorted alphabetically. it has two floating buttons - 
+The app ceate a list of audio files saved on the device and show them on the screen, sorted alphabetically. it has two floating buttons - 
 one to play all the songs from first to last (and then start again), the other to shuffle all the songs and play them in a random order.
 If you click on a song - it will play it (and then the next one on the list etc..).
 Once you click on a song or one of the buttons a MediaController appears on the buttom of the screen and the songs' name at the top.
