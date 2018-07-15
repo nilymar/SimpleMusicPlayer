@@ -1,6 +1,6 @@
 # SimpleMusicPlayer
 
-Implementation of a one sceen music player, with MediaController, MediaPlayer running in service class and media style notificaitons.
+Implementation of a one screen music player, with MediaController, MediaPlayer running in service class and media style notificaitons.
 
 The app ceate a list of audio files saved on the device and show them on the sceen, sorted alphabetically. it has two floating buttons - 
 one to play all the songs from first to last (and then start again), the other to shuffle all the songs and play them in a random order.
