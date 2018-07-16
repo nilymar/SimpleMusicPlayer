@@ -44,10 +44,8 @@ public class MusicService extends Service implements
     private String songTitle = "";
     private boolean shuffle = false;
     long state = PlaybackStateCompat.STATE_PAUSED;
-    static final int PREV = 1;
-    static final int NEXT = 2;
-    static final int AUTO = 3;
-    static final int PLAY_TRACK = 4;
+    static final int AUTO = 1;
+    static final int PLAY_TRACK = 2;
     int action;
     private static final String CHANNEL_ID = "media_playback_channel";
 
@@ -114,7 +112,7 @@ public class MusicService extends Service implements
     public void setShuffle() {
         shuffle = true;
         // set AUTO so when the song ends - it will start the next song automatically
-        action = AUTO;
+        action = PLAY_TRACK;
         if (shuffleIndexes != null) shuffleIndexes.clear();
         // create a new list of shuffled indexes
         shuffleIndexes = new ArrayList<>();
@@ -128,7 +126,7 @@ public class MusicService extends Service implements
     public void setPlayAll() {
         shuffle = false;
         // set AUTO so when the song ends - it will start the next song automatically
-        action = AUTO;
+        action = PLAY_TRACK;
         if (shuffleIndexes != null) shuffleIndexes.clear();
         songPosn = 0;
         playSong();
@@ -167,7 +165,7 @@ public class MusicService extends Service implements
         Log.i("MusicService", "completion song position is " + songPosn +
                 " and action is " + action);
         // if the player clicked on prev, next or a song in the list and somehow got here - play current song
-        if (action == PREV || action == NEXT || action ==PLAY_TRACK) {
+        if (action ==PLAY_TRACK) {
             playSong();
 //            // if the player got here on next clicked - play current song
 //        } else if (action == NEXT) {
@@ -282,7 +280,7 @@ public class MusicService extends Service implements
 
     // skip to prev
     public void playPrev() {
-        action = PREV;
+        action = PLAY_TRACK;
         songPosn--;
         if (songPosn < 0) songPosn = songsNumber - 1;
         playSong();
@@ -290,7 +288,7 @@ public class MusicService extends Service implements
 
     //skip to next
     public void playNext() {
-        action = NEXT;
+        action = PLAY_TRACK;
         songPosn++;
         if (songPosn >= songsNumber) songPosn = 0;
         playSong();
